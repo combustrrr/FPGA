@@ -1,5 +1,21 @@
 # FPGA Project
 
+## Using the YOLOv3 Model
+
+This project utilizes FPGA technology for object detection using the YOLOv3 model. Below are the instructions for setting up the environment and running the model.
+
+### Prerequisites
+- Ensure that you have the `imageai` library installed.
+- Place the `yolov3.pt` file in the `Models` directory.
+
+### Running the Object Detection
+1. Make sure the input image is placed in the `Input` directory.
+2. Run the `object_detection.py` script:
+   ```bash
+   python object_detection.py
+   ```
+3. The output will be saved in the `Output` directory, and the console will display the detected objects along with their confidence levels.
+
 This project utilizes FPGA technology for object detection using the YOLOv3 model. The following instructions will guide you through setting up the environment and running the model.
 
 ## Installation Instructions
@@ -56,4 +72,4 @@ The model `Models/yolov3.pt` is used for object detection. To set up and use the
 
 **Note:** Replace the placeholder script or command with the actual command used to run the model, as it is not specified in the provided information.
 
-By following these steps, you will set up the environment and run the object detection model successfully. 
+By following these steps, you will set up the environment and run the object detection model successfully.
